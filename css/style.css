@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;500;700;800;900&display=swap');
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+}
+
+@font-face{
+	font-family: "Catamaran, Heebo";
+	src: url("../fonts/Catamaran-VariableFont_wght.ttf") format("truetype");
+}
+body{
+
+	font-size: 14px;
+}
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+
+
+#hero{
+	background-color: #282932;
+	background-image:url("../img/slider-glob.png");
+	padding:210px;
+}
+
+#hero h1{
+	font-family: "Heebo"; 
+	color: #FFFFFF;
+	font-size: 80px;
+	font-weight: 600;
+	margin-left: -200px;
+}
+
+#hero h2{
+	color:#f7b614;
+	font-family: "Heebo"; 
+	font-weight: 600px;
+	font-size: 80px;
+	margin-left: -200px;
+	
+}
+#hero p{
+	color: #FFFFFF;
+	font-family: "Catamaran"; 
+	margin-left: -200px;
+	font-size: 20px;
+}
+
+
+.btn-dark{
+	background-color:#f7b614;
+	color:#282932;
+	font-family: "Catamaran";
+	font-weight:bold;
+	font-size: 15px;
+	border: none;
+    border-radius: 40px;
+    padding: 15px 60px;
+    cursor: pointer;
+}
+
+
+
+
+#popular h1{
+	color:#2a2a2a;
+	font-family: "Heebo"; 
+	font-weight: 600;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 60px;
+}
+
+
+#populargoods{
+	padding-bottom: 150px;
+}
+
+#populargoods h4{
+	color:#2a2a2a;
+	font-family: "Catamaran"; 
+	font-weight: 600;
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+#populargoods p{
+	color:#282932;
+	font-family: "Catamaran"; 
+	font-size: 15px;
+	text-align: center;
+	
+}
+
+.la-star{
+	color:#f7b614;
+	background-position: center;
+	align-content: center;
+	text-align: center;
+}
+
+
+.btn-light{
+	background-color:#f7b614;
+	color:#282932;
+	font-family: "Catamaran";
+	font-weight:bold;
+	font-size: 15px;
+	border: none;
+    border-radius: 40px;
+    padding: 15px 60px;
+    cursor: pointer;
+	background-position: center;
+}
+
+#sit{
+	background-color: #282932;
+	padding-bottom: 40px;
+}
+
+
+#sit h1{
+	color:#FFFFFF;
+	font-family: "Heebo"; 
+	font-weight: 600;
+	font-size: 50px;
+	text-align: left;
+	padding-top: 150px;
+	padding-left: 60px;
+}
+
+#sit h2{
+	color:#f7b614;
+	font-family: "Heebo"; 
+	font-weight: 600;
+	font-size: 50px;
+	text-align: left;
+	padding-left: 60px;
+}
+
+#sit p{
+	color:#D3CECE;
+	font-family: "Catamaran"; 
+	font-weight: 600;
+	font-size: 20px;
+	text-align: left;
+	padding-left: 60px;
+}
+
+
+.btn-lighto{
+	background-color:#f7b614;
+	color:#282932;
+	font-family: "Catamaran";
+	font-weight:bold;
+	font-size: 15px;
+	border: none;
+    border-radius: 40px;
+    padding: 15px 60px;
+    cursor: pointer;
+	background-position: center;
+}
+
+
+#subscribe{
+	padding: 30px;
+	background-color:#f7b614;
+}
+
+#subscribe h4{
+	padding-top: 0px;
+	color:#FFFFFF;
+	font-family: "Catamaran";
+	font-weight:bold;
+	font-size: 15px;
+	margin-left: -90px;
+}
+
+#subscribe h1{
+	padding-bottom: 30px;
+	color:#282932;
+	font-family: "Catamaran";
+	font-weight:bold;
+	font-weight:30%;
+	font-size: 35px;
+	margin-left: -90px;
+}
+
+.la-envelope-open-text{
+	color:#282932;
+	font-size: 130px;
+	margin-left: -130px;
+}
+
+
+.btn-lighty{
+	background-color:#282932;
+	color:#FFFFFF;
+	font-family: "Catamaran";
+	font-weight:bold;
+	font-size: 15px;
+	border: none;
+    border-radius: 40px;
+    padding: 15px 60px;
+    cursor: pointer;
+	background-position: center;
+}
+
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
